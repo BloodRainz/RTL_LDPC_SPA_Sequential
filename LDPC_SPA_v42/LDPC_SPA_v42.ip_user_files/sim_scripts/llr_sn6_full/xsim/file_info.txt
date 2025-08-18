@@ -1,0 +1,2 @@
+llr_sn6_full.v,verilog,xil_defaultlib,../../../../LDPC_SPA_v41.gen/sources_1/ip/llr_sn6_full/sim/llr_sn6_full.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

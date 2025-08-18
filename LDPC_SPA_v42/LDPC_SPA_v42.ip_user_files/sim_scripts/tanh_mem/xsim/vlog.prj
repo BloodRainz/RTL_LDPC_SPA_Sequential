@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../LDPC_SPA_v42.gen/sources_1/ip/tanh_mem/sim/tanh_mem.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

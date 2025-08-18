@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1753815055" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/SPA_top.dcp">
+  <File Type="PA-TCL" Name="SPA_top_v3.tcl"/>
+  <File Type="REPORTS-TCL" Name="SPA_top_v3_reports.tcl"/>
+  <File Type="RDS-RDS" Name="SPA_top_v3.vds"/>
+  <File Type="RDS-UTIL" Name="SPA_top_TB_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="SPA_top_TB_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="SPA_top_v3.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/float_to_fixed/float_to_fixed.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v17/LDPC_SPA_v17.srcs/sources_1/ip/float_to_fixed/float_to_fixed.xci"/>
+        <Attr Name="ImportTime" Val="1751504155"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Lj_tot_storage.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v21/LDPC_SPA_v21.srcs/sources_1/new/Lj_tot_storage.v"/>
+        <Attr Name="ImportTime" Val="1752545798"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Lj_total.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v21/LDPC_SPA_v21.srcs/sources_1/new/Lj_total.v"/>
+        <Attr Name="ImportTime" Val="1752600253"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/check_node_v3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v20/LDPC_SPA_v20.srcs/sources_1/new/check_node_v3.v"/>
+        <Attr Name="ImportTime" Val="1752508729"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/f_add.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v20/LDPC_SPA_v20.srcs/sources_1/new/f_add.v"/>
+        <Attr Name="ImportTime" Val="1752274478"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/float2fixed.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v17/LDPC_SPA_v17.srcs/sources_1/new/float2fixed.v"/>
+        <Attr Name="ImportTime" Val="1751444627"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/float2fixed_t.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v32/LDPC_SPA_v32.srcs/sources_1/new/float2fixed_t.v"/>
+        <Attr Name="ImportTime" Val="1753546955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/float_multiply.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v11/LDPC_SPA_v11.srcs/sources_1/new/float_multiply.v"/>
+        <Attr Name="ImportTime" Val="1750211212"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/half_float_by2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v28/LDPC_SPA_v28.srcs/sources_1/new/half_float_by2.v"/>
+        <Attr Name="ImportTime" Val="1752935408"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/led_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v9/LDPC_SPA_v9.srcs/sources_1/new/led_control.v"/>
+        <Attr Name="ImportTime" Val="1745336638"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/tanh_idx_v4.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v32/LDPC_SPA_v32.srcs/sources_1/new/tanh_idx_v4.v"/>
+        <Attr Name="ImportTime" Val="1753540672"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/variable_node.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v17_1/LDPC_SPA_v17_1.srcs/sources_1/new/variable_node.v"/>
+        <Attr Name="ImportTime" Val="1751647645"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SPA_top_v3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v22/LDPC_SPA_v22.srcs/sources_1/new/SPA_top_v3.v"/>
+        <Attr Name="ImportTime" Val="1752656576"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/llr_float_data_snr3.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v28/LDPC_SPA_v28.srcs/sources_1/new/llr_float_data_snr3.v"/>
+        <Attr Name="ImportTime" Val="1752973361"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SPA_top_TB.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v22/LDPC_SPA_v22.srcs/sources_1/new/SPA_top_TB.v"/>
+        <Attr Name="ImportTime" Val="1752657071"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Lji_storage.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v18/LDPC_SPA_v18.srcs/sources_1/new/Lji_storage.v"/>
+        <Attr Name="ImportTime" Val="1751900766"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Lij_storage.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v17/LDPC_SPA_v17.srcs/sources_1/new/Lij_storage.v"/>
+        <Attr Name="ImportTime" Val="1751259547"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/llr_float_data.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v19/LDPC_SPA_v19.srcs/sources_1/new/llr_float_data.v"/>
+        <Attr Name="ImportTime" Val="1752035206"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/cordic_atanh/cordic_atanh.xci">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v11/LDPC_SPA_v11.srcs/sources_1/ip/cordic_atanh/cordic_atanh.xci"/>
+        <Attr Name="ImportTime" Val="1750249759"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/atanh_lut.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v31/LDPC_SPA_v31.srcs/sources_1/new/atanh_lut.v"/>
+        <Attr Name="ImportTime" Val="1753354247"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cordic_atanh_ip.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v11/LDPC_SPA_v11.srcs/sources_1/new/cordic_atanh_ip.v"/>
+        <Attr Name="ImportTime" Val="1750249787"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fixed_to_float.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v12/LDPC_SPA_v12.srcs/sources_1/new/fixed_to_float.v"/>
+        <Attr Name="ImportTime" Val="1750781475"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/float32to16.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v12/LDPC_SPA_v12.srcs/sources_1/new/float32to16.v"/>
+        <Attr Name="ImportTime" Val="1750822070"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/tanh_v3.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v28/LDPC_SPA_v28.srcs/sources_1/new/tanh_v3.v"/>
+        <Attr Name="ImportTime" Val="1752938308"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Hmat_col_pos.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v19/LDPC_SPA_v19.srcs/sources_1/new/Hmat_col_pos.v"/>
+        <Attr Name="ImportTime" Val="1751973070"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Hmat_row_pos.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v11/LDPC_SPA_v11.srcs/sources_1/new/Hmat_row_pos.v"/>
+        <Attr Name="ImportTime" Val="1750040394"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Hcol_count.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v19/LDPC_SPA_v19.srcs/sources_1/new/Hcol_count.v"/>
+        <Attr Name="ImportTime" Val="1751979527"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Hrow_count.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v11/LDPC_SPA_v11.srcs/sources_1/new/Hrow_count.v"/>
+        <Attr Name="ImportTime" Val="1750161264"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/tanhsub_v2.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v19/LDPC_SPA_v19.srcs/sources_1/new/tanhsub_v2.v"/>
+        <Attr Name="ImportTime" Val="1752070937"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/check_node_tb.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v17/LDPC_SPA_v17.srcs/sources_1/new/check_node_tb.v"/>
+        <Attr Name="ImportTime" Val="1751440282"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/check_node_v2.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v17_1/LDPC_SPA_v17_1.srcs/sources_1/new/check_node_v2.v"/>
+        <Attr Name="ImportTime" Val="1751694313"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rx_data_gen.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v10/LDPC_SPA_v10.srcs/sources_1/new/rx_data_gen.v"/>
+        <Attr Name="ImportTime" Val="1747236987"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/tanhsub_tb.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v11/LDPC_SPA_v11.srcs/sources_1/new/tanhsub_tb.v"/>
+        <Attr Name="ImportTime" Val="1750215466"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Lji_storage_TB.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v18/LDPC_SPA_v18.srcs/sources_1/new/Lji_storage_TB.v"/>
+        <Attr Name="ImportTime" Val="1751967235"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/tanhsub.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v11/LDPC_SPA_v11.srcs/sources_1/new/tanhsub.v"/>
+        <Attr Name="ImportTime" Val="1750193849"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SPA_top_v2.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v17_1/LDPC_SPA_v17_1.srcs/sources_1/new/SPA_top_v2.v"/>
+        <Attr Name="ImportTime" Val="1751641816"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cordic_atanh_tb.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v11/LDPC_SPA_v11.srcs/sources_1/new/cordic_atanh_tb.v"/>
+        <Attr Name="ImportTime" Val="1750253188"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rx_data_TB.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v11/LDPC_SPA_v11.srcs/sources_1/new/rx_data_TB.v"/>
+        <Attr Name="ImportTime" Val="1750168509"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Hmat_row_pos_TB.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v11/LDPC_SPA_v11.srcs/sources_1/new/Hmat_row_pos_TB.v"/>
+        <Attr Name="ImportTime" Val="1750161546"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/ila_0/ila_0.xci">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v9/LDPC_SPA_v9.srcs/sources_1/ip/ila_0/ila_0.xci"/>
+        <Attr Name="ImportTime" Val="1745335549"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/H_mat_bits.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v9/LDPC_SPA_v9.srcs/sources_1/new/H_mat_bits.v"/>
+        <Attr Name="ImportTime" Val="1745329521"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SPA_top.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v9/LDPC_SPA_v9.srcs/sources_1/new/SPA_top.v"/>
+        <Attr Name="ImportTime" Val="1745338873"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/H_matrix2_tb.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v8/LDPC_SPA_v8.srcs/sources_1/new/H_matrix2_tb.v"/>
+        <Attr Name="ImportTime" Val="1744906897"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/check_node.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v12/LDPC_SPA_v12.srcs/sources_1/new/check_node.v"/>
+        <Attr Name="ImportTime" Val="1750855102"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Lij_storage_tb.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v17/LDPC_SPA_v17.srcs/sources_1/new/Lij_storage_tb.v"/>
+        <Attr Name="ImportTime" Val="1751310071"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/multiply_fixed/multiply_fixed.xci">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v19/LDPC_SPA_v19.srcs/sources_1/ip/multiply_fixed/multiply_fixed.xci"/>
+        <Attr Name="ImportTime" Val="1751984344"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/multiply_TB.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v19/LDPC_SPA_v19.srcs/sources_1/new/multiply_TB.v"/>
+        <Attr Name="ImportTime" Val="1751991273"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/decoded_output.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v21/LDPC_SPA_v21.srcs/sources_1/new/decoded_output.v"/>
+        <Attr Name="ImportTime" Val="1752545388"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Master_thesis/LDPC_SPA_v24/LDPC_SPA_v24.srcs/LLR_data_float.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v24/LDPC_SPA_v24.srcs/LLR_data_float.coe"/>
+        <Attr Name="ImportTime" Val="1752735967"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Master_thesis/LDPC_SPA_v26/LDPC_SPA_v26.srcs/LLR_data_float.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v26/LDPC_SPA_v26.srcs/LLR_data_float.coe"/>
+        <Attr Name="ImportTime" Val="1752735967"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Master_thesis/LDPC_SPA_v28/LDPC_SPA_v28.srcs/LLR_data_float.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v28/LDPC_SPA_v28.srcs/LLR_data_float.coe"/>
+        <Attr Name="ImportTime" Val="1752735967"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/Hrow_count.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v29/LDPC_SPA_v29.srcs/sources_1/Hrow_count.coe"/>
+        <Attr Name="ImportTime" Val="1753055466"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/Hcol_count.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v29/LDPC_SPA_v29.srcs/sources_1/Hcol_count.coe"/>
+        <Attr Name="ImportTime" Val="1753099865"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/Hrow_pos.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v29/LDPC_SPA_v29.srcs/sources_1/Hrow_pos.coe"/>
+        <Attr Name="ImportTime" Val="1753112635"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/Hcol_pos.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v29/LDPC_SPA_v29.srcs/sources_1/Hcol_pos.coe"/>
+        <Attr Name="ImportTime" Val="1753117687"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Master_thesis/LDPC_SPA_v31/LDPC_SPA_v31.srcs/sources_1/Hrow_count.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v31/LDPC_SPA_v31.srcs/sources_1/Hrow_count.coe"/>
+        <Attr Name="ImportTime" Val="1753055466"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Master_thesis/LDPC_SPA_v31/LDPC_SPA_v31.srcs/sources_1/Hcol_count.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v31/LDPC_SPA_v31.srcs/sources_1/Hcol_count.coe"/>
+        <Attr Name="ImportTime" Val="1753099865"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Master_thesis/LDPC_SPA_v31/LDPC_SPA_v31.srcs/sources_1/Hrow_pos.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v31/LDPC_SPA_v31.srcs/sources_1/Hrow_pos.coe"/>
+        <Attr Name="ImportTime" Val="1753112635"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Master_thesis/LDPC_SPA_v31/LDPC_SPA_v31.srcs/sources_1/Hcol_pos.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v31/LDPC_SPA_v31.srcs/sources_1/Hcol_pos.coe"/>
+        <Attr Name="ImportTime" Val="1753117687"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/tanh_mem.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v32/LDPC_SPA_v32.srcs/sources_1/tanh_mem.coe"/>
+        <Attr Name="ImportTime" Val="1753670801"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/atanh_mem.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v34/LDPC_SPA_v34.srcs/sources_1/atanh_mem.coe"/>
+        <Attr Name="ImportTime" Val="1753742479"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Master_thesis/LDPC_SPA_v33/LDPC_SPA_v33.srcs/sources_1/tanh_mem.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v33/LDPC_SPA_v33.srcs/sources_1/tanh_mem.coe"/>
+        <Attr Name="ImportTime" Val="1753734699"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Master_thesis/LDPC_SPA_v35/LDPC_SPA_v35.srcs/sources_1/atanh_mem.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v35/LDPC_SPA_v35.srcs/sources_1/atanh_mem.coe"/>
+        <Attr Name="ImportTime" Val="1753742479"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="SPA_top_v3"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Eclypse-Z7-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v6/LDPC_SPA_v6.srcs/constrs_1/imports/digilent-xdc-master/Eclypse-Z7-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1745073456"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/SPA_top.dcp">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../LDPC_SPA_v9/LDPC_SPA_v9.srcs/utils_1/imports/synth_1/SPA_top.dcp"/>
+        <Attr Name="ImportTime" Val="1745338883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="floating_mul_half"/>
+  <BlockFileSet Type="BlockSrcs" Name="float_add"/>
+  <BlockFileSet Type="BlockSrcs" Name="hcol_count_mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="atanh_mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="hrow_count_mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="lij_mem_bram"/>
+  <BlockFileSet Type="BlockSrcs" Name="hrow_pos_mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="tanh_mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="hcol_pos_mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="float2fixed_idx"/>
+  <BlockFileSet Type="BlockSrcs" Name="Lji_mem_bram"/>
+</GenRun>

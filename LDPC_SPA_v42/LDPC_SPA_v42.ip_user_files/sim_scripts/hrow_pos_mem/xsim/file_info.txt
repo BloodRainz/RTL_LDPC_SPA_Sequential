@@ -1,0 +1,2 @@
+hrow_pos_mem.v,verilog,xil_defaultlib,../../../../LDPC_SPA_v42.gen/sources_1/ip/hrow_pos_mem/sim/hrow_pos_mem.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

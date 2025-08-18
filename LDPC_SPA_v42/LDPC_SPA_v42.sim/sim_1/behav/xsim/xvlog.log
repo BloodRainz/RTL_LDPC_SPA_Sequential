@@ -1,0 +1,54 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.gen/sources_1/ip/float_add/sim/float_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module float_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.gen/sources_1/ip/hcol_pos_mem/sim/hcol_pos_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hcol_pos_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.gen/sources_1/ip/hcol_count_mem/sim/hcol_count_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hcol_count_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.gen/sources_1/ip/hrow_pos_mem/sim/hrow_pos_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hrow_pos_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.gen/sources_1/ip/hrow_count_mem/sim/hrow_count_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hrow_count_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.gen/sources_1/ip/atanh_mem/sim/atanh_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module atanh_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.gen/sources_1/ip/float_to_fixed/sim/float_to_fixed.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module float_to_fixed
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.gen/sources_1/ip/floating_mul_half/sim/floating_mul_half.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module floating_mul_half
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.gen/sources_1/ip/tanh_mem/sim/tanh_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tanh_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.gen/sources_1/ip/float2fixed_idx/sim/float2fixed_idx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module float2fixed_idx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.gen/sources_1/ip/Lji_mem_bram/sim/Lji_mem_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lji_mem_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.gen/sources_1/ip/lij_mem_bram/sim/lij_mem_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lij_mem_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.srcs/sources_1/new/Lj_tot_storage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lj_tot_storage
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.srcs/sources_1/new/Lj_total.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lj_total
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.srcs/sources_1/new/SPA_top_v3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPA_top_v3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.srcs/sources_1/new/check_node_v3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module check_node_v3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.srcs/sources_1/new/f_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module f_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.srcs/sources_1/imports/new/float2fixed.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module float2fixed
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.srcs/sources_1/new/float2fixed_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module float2fixed_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.srcs/sources_1/new/float_multiply.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module float_multiply
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.srcs/sources_1/new/half_float_by2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_float_by2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.srcs/sources_1/new/half_float_mul2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_float_mul2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.srcs/sources_1/new/led_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.srcs/sources_1/new/llr_float_snr2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module llr_float_snr2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.srcs/sources_1/new/tanh_idx_v4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tanh_idx_v4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.srcs/sources_1/new/variable_node.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module variable_node
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_files/Master_thesis/LDPC_SPA_v42/LDPC_SPA_v42.srcs/sources_1/new/SPA_top_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPA_top_TB

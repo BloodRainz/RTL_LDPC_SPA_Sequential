@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SPA_top_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SPA_top_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2,051.334071194 ms"></ZoomStartTime>
+      <ZoomEndTime time="2,070.071727762 ms"></ZoomEndTime>
+      <Cursor1Time time="2,066.948785000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="73"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/SPA_top_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/start_btn" type="logic">
+      <obj_property name="ElementShortName">start_btn</obj_property>
+      <obj_property name="ObjectShortName">start_btn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/rst_btn" type="logic">
+      <obj_property name="ElementShortName">rst_btn</obj_property>
+      <obj_property name="ObjectShortName">rst_btn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/out_file" type="array">
+      <obj_property name="ElementShortName">out_file[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_file[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/vec" type="array">
+      <obj_property name="ElementShortName">vec[7:0]</obj_property>
+      <obj_property name="ObjectShortName">vec[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/itr" type="array">
+      <obj_property name="ElementShortName">itr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">itr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/out_addr" type="array">
+      <obj_property name="ElementShortName">out_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">out_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/out_data" type="logic">
+      <obj_property name="ElementShortName">out_data</obj_property>
+      <obj_property name="ObjectShortName">out_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/out_ready" type="logic">
+      <obj_property name="ElementShortName">out_ready</obj_property>
+      <obj_property name="ObjectShortName">out_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/SPA/cn/start_Cn" type="logic">
+      <obj_property name="ElementShortName">start_Cn</obj_property>
+      <obj_property name="ObjectShortName">start_Cn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/SPA/cn/Cn_done" type="logic">
+      <obj_property name="ElementShortName">Cn_done</obj_property>
+      <obj_property name="ObjectShortName">Cn_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/SPA/cn/row_i" type="array">
+      <obj_property name="ElementShortName">row_i[11:0]</obj_property>
+      <obj_property name="ObjectShortName">row_i[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/SPA/cn/col_j" type="array">
+      <obj_property name="ElementShortName">col_j[2:0]</obj_property>
+      <obj_property name="ObjectShortName">col_j[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/SPA/vn/Vn_done" type="logic">
+      <obj_property name="ElementShortName">Vn_done</obj_property>
+      <obj_property name="ObjectShortName">Vn_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/SPA/vn/start_Vn" type="logic">
+      <obj_property name="ElementShortName">start_Vn</obj_property>
+      <obj_property name="ObjectShortName">start_Vn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/SPA/vn/col_j" type="array">
+      <obj_property name="ElementShortName">col_j[11:0]</obj_property>
+      <obj_property name="ObjectShortName">col_j[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/SPA/vn/row_i" type="array">
+      <obj_property name="ElementShortName">row_i[2:0]</obj_property>
+      <obj_property name="ObjectShortName">row_i[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/SPA/init_i" type="array">
+      <obj_property name="ElementShortName">init_i[11:0]</obj_property>
+      <obj_property name="ObjectShortName">init_i[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/SPA/init_j" type="array">
+      <obj_property name="ElementShortName">init_j[2:0]</obj_property>
+      <obj_property name="ObjectShortName">init_j[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/SPA/init_active" type="logic">
+      <obj_property name="ElementShortName">init_active</obj_property>
+      <obj_property name="ObjectShortName">init_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/SPA/init_done" type="logic">
+      <obj_property name="ElementShortName">init_done</obj_property>
+      <obj_property name="ObjectShortName">init_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/llr_addr" type="array">
+      <obj_property name="ElementShortName">llr_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">llr_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/llr_data" type="array">
+      <obj_property name="ElementShortName">llr_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">llr_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/vec" type="array">
+      <obj_property name="ElementShortName">vec[7:0]</obj_property>
+      <obj_property name="ObjectShortName">vec[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/itr" type="array">
+      <obj_property name="ElementShortName">itr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">itr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/SPA/llr_addr_lji" type="array">
+      <obj_property name="ElementShortName">llr_addr_lji[11:0]</obj_property>
+      <obj_property name="ObjectShortName">llr_addr_lji[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/SPA/llr_data_lji" type="array">
+      <obj_property name="ElementShortName">llr_data_lji[15:0]</obj_property>
+      <obj_property name="ObjectShortName">llr_data_lji[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/llr_data_spa" type="array">
+      <obj_property name="ElementShortName">llr_data_spa[15:0]</obj_property>
+      <obj_property name="ObjectShortName">llr_data_spa[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/SPA/switch" type="logic">
+      <obj_property name="ElementShortName">switch</obj_property>
+      <obj_property name="ObjectShortName">switch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPA_top_TB/SPA/switch_tot" type="logic">
+      <obj_property name="ElementShortName">switch_tot</obj_property>
+      <obj_property name="ObjectShortName">switch_tot</obj_property>
+   </wvobject>
+</wave_config>

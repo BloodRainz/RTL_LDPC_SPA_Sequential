@@ -1,0 +1,854 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Jul 29 20:52:36 2025
+# Process ID: 13900
+# Current directory: D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1
+# Command line: vivado.exe -log SPA_top_v3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SPA_top_v3.tcl
+# Log file: D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/SPA_top_v3.vds
+# Journal file: D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1\vivado.jou
+# Running On: LAPTOP-3T4U0UNN, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 14877 MB
+#-----------------------------------------------------------
+source SPA_top_v3.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 484.746 ; gain = 182.809
+Command: read_checkpoint -auto_incremental -incremental D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/utils_1/imports/synth_1/SPA_top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/utils_1/imports/synth_1/SPA_top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+read_checkpoint: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 498.500 ; gain = 0.000
+Command: synth_design -top SPA_top_v3 -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13848
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1361.902 ; gain = 439.246
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-11065] parameter 'IDLE' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:42]
+WARNING: [Synth 8-11065] parameter 'LOAD_CN' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:43]
+WARNING: [Synth 8-11065] parameter 'SET_J' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:44]
+WARNING: [Synth 8-11065] parameter 'GET_LJI' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:45]
+WARNING: [Synth 8-11065] parameter 'WAIT_TANH' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:46]
+WARNING: [Synth 8-11065] parameter 'INIT_PRODUCT' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:47]
+WARNING: [Synth 8-11065] parameter 'WAIT_PRODUCT' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:48]
+WARNING: [Synth 8-11065] parameter 'PRODUCT_OUT' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:49]
+WARNING: [Synth 8-11065] parameter 'COMPARE' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:50]
+WARNING: [Synth 8-11065] parameter 'CONVERT2FIXED' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:51]
+WARNING: [Synth 8-11065] parameter 'WAIT_FIXED' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:52]
+WARNING: [Synth 8-11065] parameter 'FIXED_OUTPUT' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:53]
+WARNING: [Synth 8-11065] parameter 'COMPUTE_ATANH' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:54]
+WARNING: [Synth 8-11065] parameter 'ATANH_WAIT' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:55]
+WARNING: [Synth 8-11065] parameter 'ATANH_OUT' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:56]
+WARNING: [Synth 8-11065] parameter 'CONVERT2FLOAT' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:57]
+WARNING: [Synth 8-11065] parameter 'WAIT_FLOAT' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:58]
+WARNING: [Synth 8-11065] parameter 'FLOAT_OUTPUT' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:59]
+WARNING: [Synth 8-11065] parameter 'FLOAT16_CONVERT' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:60]
+WARNING: [Synth 8-11065] parameter 'WAIT_F32_F16' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:61]
+WARNING: [Synth 8-11065] parameter 'F16_OUTPUT' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:62]
+WARNING: [Synth 8-11065] parameter 'WRITE_LIJ' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:63]
+WARNING: [Synth 8-11065] parameter 'NEXT_J' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:64]
+WARNING: [Synth 8-11065] parameter 'NEXT_I' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:65]
+WARNING: [Synth 8-11065] parameter 'DONE' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:66]
+WARNING: [Synth 8-11065] parameter 'WAIT_WRITE' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:67]
+WARNING: [Synth 8-11065] parameter 'WAIT_LJI' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:68]
+WARNING: [Synth 8-11065] parameter 'WAIT_DIV2' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:69]
+WARNING: [Synth 8-11065] parameter 'WAIT_COLCOUNT' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:70]
+WARNING: [Synth 8-11065] parameter 'WAIT_ROWCOUNT' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:71]
+WARNING: [Synth 8-11065] parameter 'CHECK_FORLUT' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:72]
+WARNING: [Synth 8-11065] parameter 'GOTO_TANHLUT' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:73]
+WARNING: [Synth 8-11065] parameter 'ATANH_LUTOUT' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:74]
+WARNING: [Synth 8-11065] parameter 'COMPUTE_IDX' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:75]
+WARNING: [Synth 8-11065] parameter 'FIXED_CONV_T' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:76]
+WARNING: [Synth 8-11065] parameter 'WAIT_FIXED_T' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:77]
+WARNING: [Synth 8-11065] parameter 'FIXED_OUTT' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:78]
+WARNING: [Synth 8-11065] parameter 'CHECK_LIM_T' becomes localparam in 'check_node_v3' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:79]
+WARNING: [Synth 8-11065] parameter 'IDLE' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:44]
+WARNING: [Synth 8-11065] parameter 'LOAD_VN' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:45]
+WARNING: [Synth 8-11065] parameter 'SET_I' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:46]
+WARNING: [Synth 8-11065] parameter 'GET_LIJ' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:47]
+WARNING: [Synth 8-11065] parameter 'UPDATE_LIJ' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:48]
+WARNING: [Synth 8-11065] parameter 'INIT_SUM' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:49]
+WARNING: [Synth 8-11065] parameter 'WAIT_SUM' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:50]
+WARNING: [Synth 8-11065] parameter 'SUM_OUT' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:51]
+WARNING: [Synth 8-11065] parameter 'GET_LJ_FLOAT' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:52]
+WARNING: [Synth 8-11065] parameter 'INIT_SUM2' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:53]
+WARNING: [Synth 8-11065] parameter 'WAIT_SUM2' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:54]
+WARNING: [Synth 8-11065] parameter 'SUM2_OUT' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:55]
+WARNING: [Synth 8-11065] parameter 'WRITE_LJI' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:56]
+WARNING: [Synth 8-11065] parameter 'NEXT_I' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:57]
+WARNING: [Synth 8-11065] parameter 'NEXT_J' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:58]
+WARNING: [Synth 8-11065] parameter 'DONE' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:59]
+WARNING: [Synth 8-11065] parameter 'WAIT_WRITE' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:60]
+WARNING: [Synth 8-11065] parameter 'WAIT_ROWCOUNT' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:61]
+WARNING: [Synth 8-11065] parameter 'WAIT_COLCOUNT' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:62]
+WARNING: [Synth 8-11065] parameter 'WAIT_LIJ' becomes localparam in 'variable_node' with formal parameter declaration list [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:63]
+INFO: [Synth 8-6157] synthesizing module 'SPA_top_v3' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:23]
+INFO: [Synth 8-6157] synthesizing module 'led_control' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/led_control.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'led_control' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/led_control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'lij_mem_bram' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/lij_mem_bram_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'lij_mem_bram' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/lij_mem_bram_stub.v:6]
+WARNING: [Synth 8-689] width (12) of port connection 'addra' does not match port width (11) of module 'lij_mem_bram' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:176]
+WARNING: [Synth 8-689] width (12) of port connection 'addrb' does not match port width (11) of module 'lij_mem_bram' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:180]
+INFO: [Synth 8-6157] synthesizing module 'Lji_mem_bram' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/Lji_mem_bram_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Lji_mem_bram' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/Lji_mem_bram_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'check_node_v3' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:23]
+INFO: [Synth 8-6157] synthesizing module 'hrow_count_mem' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/hrow_count_mem_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'hrow_count_mem' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/hrow_count_mem_stub.v:6]
+WARNING: [Synth 8-689] width (12) of port connection 'addra' does not match port width (11) of module 'hrow_count_mem' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:183]
+INFO: [Synth 8-6157] synthesizing module 'hrow_pos_mem' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/hrow_pos_mem_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'hrow_pos_mem' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/hrow_pos_mem_stub.v:6]
+WARNING: [Synth 8-689] width (12) of port connection 'addra' does not match port width (11) of module 'hrow_pos_mem' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:199]
+INFO: [Synth 8-6157] synthesizing module 'hcol_count_mem' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/hcol_count_mem_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'hcol_count_mem' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/hcol_count_mem_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'hcol_pos_mem' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/hcol_pos_mem_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'hcol_pos_mem' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/hcol_pos_mem_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'half_float_by2' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/half_float_by2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'half_float_by2' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/half_float_by2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'float2fixed_t' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/float2fixed_t.v:23]
+INFO: [Synth 8-6157] synthesizing module 'float2fixed_idx' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/float2fixed_idx_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'float2fixed_idx' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/float2fixed_idx_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'float2fixed_t' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/float2fixed_t.v:23]
+INFO: [Synth 8-6157] synthesizing module 'tanh_idx_v4' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/tanh_idx_v4.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'tanh_idx_v4' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/tanh_idx_v4.v:23]
+INFO: [Synth 8-6157] synthesizing module 'tanh_mem' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/tanh_mem_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'tanh_mem' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/tanh_mem_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'float_multiply' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/float_multiply.v:23]
+INFO: [Synth 8-6157] synthesizing module 'floating_mul_half' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/floating_mul_half_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'floating_mul_half' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/floating_mul_half_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'float_multiply' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/float_multiply.v:23]
+INFO: [Synth 8-6157] synthesizing module 'float2fixed' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/imports/new/float2fixed.v:23]
+INFO: [Synth 8-6157] synthesizing module 'float_to_fixed' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/float_to_fixed_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'float_to_fixed' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/float_to_fixed_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'float2fixed' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/imports/new/float2fixed.v:23]
+INFO: [Synth 8-6157] synthesizing module 'atanh_mem' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/atanh_mem_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'atanh_mem' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/atanh_mem_stub.v:6]
+WARNING: [Synth 8-324] index 6 out of range [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:444]
+WARNING: [Synth 8-324] index 6 out of range [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:466]
+WARNING: [Synth 8-324] index 6 out of range [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:466]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:423]
+INFO: [Synth 8-6155] done synthesizing module 'check_node_v3' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:23]
+INFO: [Synth 8-6157] synthesizing module 'variable_node' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:23]
+WARNING: [Synth 8-689] width (12) of port connection 'addra' does not match port width (11) of module 'hrow_count_mem' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:140]
+WARNING: [Synth 8-689] width (12) of port connection 'addra' does not match port width (11) of module 'hrow_pos_mem' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:157]
+INFO: [Synth 8-6157] synthesizing module 'f_add' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/f_add.v:23]
+INFO: [Synth 8-6157] synthesizing module 'float_add' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/float_add_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'float_add' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/.Xil/Vivado-13900-LAPTOP-3T4U0UNN/realtime/float_add_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'f_add' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/f_add.v:23]
+WARNING: [Synth 8-324] index 6 out of range [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:252]
+WARNING: [Synth 8-324] index 6 out of range [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:277]
+WARNING: [Synth 8-324] index 6 out of range [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:277]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:230]
+INFO: [Synth 8-6155] done synthesizing module 'variable_node' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Lj_total' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:23]
+WARNING: [Synth 8-689] width (12) of port connection 'addra' does not match port width (11) of module 'hrow_count_mem' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:107]
+WARNING: [Synth 8-689] width (12) of port connection 'addra' does not match port width (11) of module 'hrow_pos_mem' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:122]
+WARNING: [Synth 8-324] index 6 out of range [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:257]
+WARNING: [Synth 8-324] index 6 out of range [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:257]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:221]
+INFO: [Synth 8-6155] done synthesizing module 'Lj_total' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Lj_tot_storage' [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:23]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2559]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2558]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2557]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2556]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2555]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2554]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2553]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2552]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2551]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2550]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2549]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2548]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2547]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2546]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2545]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2544]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2543]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2542]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2541]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2540]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2539]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2538]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2537]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2536]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2535]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2534]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2533]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2532]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2531]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2530]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2529]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2528]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2527]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2526]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2525]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2524]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2523]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2522]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2521]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2520]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2519]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2518]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2517]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2516]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2515]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2514]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2513]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2512]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2511]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2510]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2509]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2508]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2507]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2506]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2505]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2504]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2503]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2502]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2501]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2500]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2499]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2498]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2497]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2496]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2495]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2494]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2493]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2492]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2491]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2490]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2489]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2488]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2487]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2486]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2485]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2484]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2483]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2482]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2481]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2480]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2479]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2478]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2477]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2476]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2475]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2474]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2473]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2472]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2471]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2470]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2469]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2468]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2467]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2466]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2465]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2464]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2463]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2462]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2461]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+WARNING: [Synth 8-7186] Applying attribute ram_style = "block" is ignored, object 'Lj_total[2460]' is not inferred as ram due to incorrect usage [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:34]
+INFO: [Common 17-14] Message 'Synth 8-7186' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'Lj_tot_storage' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_tot_storage.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:430]
+INFO: [Synth 8-6155] done synthesizing module 'SPA_top_v3' (0#1) [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:23]
+WARNING: [Synth 8-6014] Unused sequential element atanh_valid_in_reg was removed.  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:404]
+WARNING: [Synth 8-6014] Unused sequential element valid_fixed_in_reg was removed.  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:405]
+WARNING: [Synth 8-6014] Unused sequential element valid_f32_in_reg was removed.  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:406]
+WARNING: [Synth 8-6014] Unused sequential element lij_we_n_reg was removed.  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:409]
+WARNING: [Synth 8-6014] Unused sequential element j_reg was removed.  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:441]
+WARNING: [Synth 8-7137] Register product_term_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:448]
+WARNING: [Synth 8-7137] Register col_data_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:452]
+WARNING: [Synth 8-7137] Register lji_rowpos_rd_addr_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:467]
+WARNING: [Synth 8-7137] Register lji_col_rd_addr_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:470]
+WARNING: [Synth 8-7137] Register div2_in_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:237]
+WARNING: [Synth 8-7137] Register tanh_mem_addr_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:262]
+WARNING: [Synth 8-7137] Register tanh_float_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:495]
+WARNING: [Synth 8-7137] Register float_in_t_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:249]
+WARNING: [Synth 8-7137] Register tanh_input_fixed_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:256]
+WARNING: [Synth 8-7137] Register float_a_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:269]
+WARNING: [Synth 8-7137] Register float_b_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:270]
+WARNING: [Synth 8-7137] Register product_new_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:569]
+WARNING: [Synth 8-7137] Register float_in_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:312]
+WARNING: [Synth 8-7137] Register atanh_deg_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:609]
+WARNING: [Synth 8-7137] Register atanh_mem_addr_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:343]
+WARNING: [Synth 8-7137] Register lij_row_wr_addr_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:683]
+WARNING: [Synth 8-7137] Register lij_col_wr_addr_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:684]
+WARNING: [Synth 8-7137] Register Lij_write_data_reg in module check_node_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/check_node_v3.v:685]
+WARNING: [Synth 8-6014] Unused sequential element j_reg was removed.  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:248]
+WARNING: [Synth 8-7137] Register lij_col_rd_addr_reg in module variable_node has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:236]
+WARNING: [Synth 8-7137] Register lij_row_rd_addr_reg in module variable_node has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:237]
+WARNING: [Synth 8-7137] Register row_data_reg in module variable_node has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:263]
+WARNING: [Synth 8-7137] Register float_a_reg in module variable_node has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:164]
+WARNING: [Synth 8-7137] Register float_b_reg in module variable_node has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:165]
+WARNING: [Synth 8-7137] Register llr_addr_v_reg in module variable_node has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:329]
+WARNING: [Synth 8-7137] Register float_c_reg in module variable_node has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:176]
+WARNING: [Synth 8-7137] Register float_d_reg in module variable_node has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:177]
+WARNING: [Synth 8-7137] Register lji_data_reg in module variable_node has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:347]
+WARNING: [Synth 8-7137] Register lji_col_wr_addr_reg in module variable_node has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:355]
+WARNING: [Synth 8-7137] Register lji_rowpos_wr_addr_reg in module variable_node has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:356]
+WARNING: [Synth 8-7137] Register Lji_write_data_reg in module variable_node has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/variable_node.v:357]
+WARNING: [Synth 8-6014] Unused sequential element row_i_reg was removed.  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:201]
+WARNING: [Synth 8-6014] Unused sequential element connected_cn_reg[4] was removed.  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:215]
+WARNING: [Synth 8-6014] Unused sequential element connected_cn_reg[3] was removed.  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:215]
+WARNING: [Synth 8-6014] Unused sequential element connected_cn_reg[2] was removed.  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:215]
+WARNING: [Synth 8-6014] Unused sequential element connected_cn_reg[1] was removed.  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:215]
+WARNING: [Synth 8-6014] Unused sequential element connected_cn_reg[0] was removed.  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:215]
+WARNING: [Synth 8-7137] Register lij_col_rd_addr_reg in module Lj_total has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:228]
+WARNING: [Synth 8-7137] Register lij_row_rd_addr_reg in module Lj_total has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:229]
+WARNING: [Synth 8-7137] Register row_data_reg in module Lj_total has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:240]
+WARNING: [Synth 8-7137] Register float_a_reg in module Lj_total has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:155]
+WARNING: [Synth 8-7137] Register float_b_reg in module Lj_total has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:156]
+WARNING: [Synth 8-7137] Register llr_addr_tot_reg in module Lj_total has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:309]
+WARNING: [Synth 8-7137] Register float_c_reg in module Lj_total has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:167]
+WARNING: [Synth 8-7137] Register float_d_reg in module Lj_total has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:168]
+WARNING: [Synth 8-7137] Register lj_total_reg in module Lj_total has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:327]
+WARNING: [Synth 8-7137] Register lj_tot_wr_addr_reg in module Lj_total has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:334]
+WARNING: [Synth 8-7137] Register lj_tot_wr_data_reg in module Lj_total has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/Lj_total.v:335]
+WARNING: [Synth 8-6014] Unused sequential element lji_rowpos_wr_addr_ini_reg was removed.  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:373]
+WARNING: [Synth 8-6014] Unused sequential element lji_write_data_ini_reg was removed.  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:375]
+WARNING: [Synth 8-6014] Unused sequential element lij_rst_reg was removed.  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:407]
+WARNING: [Synth 8-6014] Unused sequential element lji_rst_reg was removed.  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:408]
+WARNING: [Synth 8-7137] Register lji_wr_buf_reg in module SPA_top_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:284]
+WARNING: [Synth 8-7137] Register switch_tot_reg in module SPA_top_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:273]
+WARNING: [Synth 8-7137] Register i_reg in module SPA_top_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:484]
+WARNING: [Synth 8-7137] Register out_ready_reg in module SPA_top_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:490]
+WARNING: [Synth 8-7137] Register lj_tot_re_reg in module SPA_top_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:268]
+WARNING: [Synth 8-7137] Register lj_tot_rd_addr_reg in module SPA_top_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:269]
+WARNING: [Synth 8-7137] Register out_addr_reg in module SPA_top_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:500]
+WARNING: [Synth 8-7137] Register decoded_out_reg in module SPA_top_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code 
+WARNING: [Synth 8-7137] Register out_data_reg in module SPA_top_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:507]
+WARNING: [Synth 8-7137] Register j_reg in module SPA_top_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:538]
+WARNING: [Synth 8-7137] Register boot_reg in module SPA_top_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:146]
+WARNING: [Synth 8-7137] Register led0_r_reg in module SPA_top_v3 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/sources_1/new/SPA_top_v3.v:559]
+WARNING: [Synth 8-4767] Trying to implement RAM 'decoded_out_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM is sensitive to asynchronous reset signal. this RTL style is not supported. 
+RAM "decoded_out_reg" dissolved into registers
+WARNING: [Synth 8-7129] Port rst in module f_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module float_multiply is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1884.984 ; gain = 962.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1884.984 ; gain = 962.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1884.984 ; gain = 962.328
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.777 . Memory (MB): peak = 1884.984 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/float_to_fixed/float_to_fixed/float_to_fixed_in_context.xdc] for cell 'cn/f2fix/fixed'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/float_to_fixed/float_to_fixed/float_to_fixed_in_context.xdc] for cell 'cn/f2fix/fixed'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/floating_mul_half/floating_mul_half/floating_mul_half_in_context.xdc] for cell 'cn/product/mul_inst'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/floating_mul_half/floating_mul_half/floating_mul_half_in_context.xdc] for cell 'cn/product/mul_inst'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/float_add/float_add/float_add_in_context.xdc] for cell 'vn/add/add_inst'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/float_add/float_add/float_add_in_context.xdc] for cell 'vn/add/add_inst'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/float_add/float_add/float_add_in_context.xdc] for cell 'vn/add2/add_inst'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/float_add/float_add/float_add_in_context.xdc] for cell 'vn/add2/add_inst'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/float_add/float_add/float_add_in_context.xdc] for cell 'lj_tot/add_tot/add_inst'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/float_add/float_add/float_add_in_context.xdc] for cell 'lj_tot/add_tot/add_inst'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/float_add/float_add/float_add_in_context.xdc] for cell 'lj_tot/add2_tot/add_inst'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/float_add/float_add/float_add_in_context.xdc] for cell 'lj_tot/add2_tot/add_inst'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hrow_count_mem/hrow_count_mem/hrow_count_mem_in_context.xdc] for cell 'cn/rowcount'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hrow_count_mem/hrow_count_mem/hrow_count_mem_in_context.xdc] for cell 'cn/rowcount'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hrow_count_mem/hrow_count_mem/hrow_count_mem_in_context.xdc] for cell 'vn/rowcountv'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hrow_count_mem/hrow_count_mem/hrow_count_mem_in_context.xdc] for cell 'vn/rowcountv'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hrow_count_mem/hrow_count_mem/hrow_count_mem_in_context.xdc] for cell 'lj_tot/rowcount_tot'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hrow_count_mem/hrow_count_mem/hrow_count_mem_in_context.xdc] for cell 'lj_tot/rowcount_tot'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hcol_count_mem/hcol_count_mem/hcol_count_mem_in_context.xdc] for cell 'cn/colcount'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hcol_count_mem/hcol_count_mem/hcol_count_mem_in_context.xdc] for cell 'cn/colcount'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hcol_count_mem/hcol_count_mem/hcol_count_mem_in_context.xdc] for cell 'vn/Col_countv'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hcol_count_mem/hcol_count_mem/hcol_count_mem_in_context.xdc] for cell 'vn/Col_countv'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hcol_count_mem/hcol_count_mem/hcol_count_mem_in_context.xdc] for cell 'lj_tot/Col_count_tot'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hcol_count_mem/hcol_count_mem/hcol_count_mem_in_context.xdc] for cell 'lj_tot/Col_count_tot'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hrow_pos_mem/hrow_pos_mem/hrow_pos_mem_in_context.xdc] for cell 'cn/Hrow'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hrow_pos_mem/hrow_pos_mem/hrow_pos_mem_in_context.xdc] for cell 'cn/Hrow'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hrow_pos_mem/hrow_pos_mem/hrow_pos_mem_in_context.xdc] for cell 'vn/Hrowv'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hrow_pos_mem/hrow_pos_mem/hrow_pos_mem_in_context.xdc] for cell 'vn/Hrowv'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hrow_pos_mem/hrow_pos_mem/hrow_pos_mem_in_context.xdc] for cell 'lj_tot/Hrow_tot'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hrow_pos_mem/hrow_pos_mem/hrow_pos_mem_in_context.xdc] for cell 'lj_tot/Hrow_tot'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hcol_pos_mem/hcol_pos_mem/hcol_pos_mem_in_context.xdc] for cell 'cn/Hcol'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hcol_pos_mem/hcol_pos_mem/hcol_pos_mem_in_context.xdc] for cell 'cn/Hcol'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hcol_pos_mem/hcol_pos_mem/hcol_pos_mem_in_context.xdc] for cell 'vn/Hcolv'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hcol_pos_mem/hcol_pos_mem/hcol_pos_mem_in_context.xdc] for cell 'vn/Hcolv'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hcol_pos_mem/hcol_pos_mem/hcol_pos_mem_in_context.xdc] for cell 'lj_tot/Hcol_tot'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/hcol_pos_mem/hcol_pos_mem/hcol_pos_mem_in_context.xdc] for cell 'lj_tot/Hcol_tot'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/tanh_mem/tanh_mem/tanh_mem_in_context.xdc] for cell 'cn/tanh_lut'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/tanh_mem/tanh_mem/tanh_mem_in_context.xdc] for cell 'cn/tanh_lut'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/atanh_mem/atanh_mem/atanh_mem_in_context.xdc] for cell 'cn/atan_lut'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/atanh_mem/atanh_mem/atanh_mem_in_context.xdc] for cell 'cn/atan_lut'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/lij_mem_bram/lij_mem_bram/lij_mem_bram_in_context.xdc] for cell 'lij_storage'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/lij_mem_bram/lij_mem_bram/lij_mem_bram_in_context.xdc] for cell 'lij_storage'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/float2fixed_idx/float2fixed_idx/float2fixed_idx_in_context.xdc] for cell 'cn/f2fix_t/fixed'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/float2fixed_idx/float2fixed_idx/float2fixed_idx_in_context.xdc] for cell 'cn/f2fix_t/fixed'
+Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/Lji_mem_bram/Lji_mem_bram/Lji_mem_bram_in_context.xdc] for cell 'lji_storage'
+Finished Parsing XDC File [d:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.gen/sources_1/ip/Lji_mem_bram/Lji_mem_bram/Lji_mem_bram_in_context.xdc] for cell 'lji_storage'
+Parsing XDC File [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/constrs_1/imports/digilent-xdc-master/Eclypse-Z7-Master.xdc]
+Finished Parsing XDC File [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/constrs_1/imports/digilent-xdc-master/Eclypse-Z7-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.srcs/constrs_1/imports/digilent-xdc-master/Eclypse-Z7-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SPA_top_v3_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/SPA_top_v3_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2027.754 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.334 . Memory (MB): peak = 2027.754 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'lij_storage' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'lji_storage' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'cn/Hcol' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'cn/Hrow' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'cn/atan_lut' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'cn/colcount' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'cn/rowcount' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'cn/tanh_lut' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'cn/f2fix/fixed' at clock pin 'aclk' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'cn/f2fix_t/fixed' at clock pin 'aclk' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'cn/product/mul_inst' at clock pin 'aclk' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'lj_tot/Col_count_tot' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'lj_tot/Hcol_tot' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'lj_tot/Hrow_tot' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'lj_tot/rowcount_tot' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'lj_tot/add2_tot/add_inst' at clock pin 'aclk' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'lj_tot/add_tot/add_inst' at clock pin 'aclk' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'vn/Col_countv' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'vn/Hcolv' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'vn/Hrowv' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'vn/rowcountv' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'vn/add/add_inst' at clock pin 'aclk' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'vn/add2/add_inst' at clock pin 'aclk' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 2040.195 ; gain = 1117.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 2040.195 ; gain = 1117.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for cn/f2fix/fixed. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for cn/product/mul_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for vn/add/add_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for vn/add2/add_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for lj_tot/add_tot/add_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for lj_tot/add2_tot/add_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for cn/rowcount. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for lj_tot/rowcount_tot. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for vn/rowcountv. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for lj_tot/Col_count_tot. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for vn/Col_countv. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for cn/colcount. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for cn/Hrow. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for lj_tot/Hrow_tot. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for vn/Hrowv. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for cn/Hcol. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for lj_tot/Hcol_tot. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for vn/Hcolv. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for cn/tanh_lut. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for cn/atan_lut. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for lij_storage. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for cn/f2fix_t/fixed. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for lji_storage. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 2040.195 ; gain = 1117.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6702] IncrSynth : Design change found in an area of the design that prevents previous synthesis information being used, Reverting to default synthesis
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:52 ; elapsed = 00:00:57 . Memory (MB): peak = 4404.348 ; gain = 3481.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:52 ; elapsed = 00:00:57 . Memory (MB): peak = 4404.348 ; gain = 3481.691
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'check_node_v3'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'variable_node'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Lj_total'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |     0000000000000000000000000001 |                          0000000
+                 LOAD_CN |     0000000000000000000000000010 |                          0000001
+                   SET_J |     0000000000000000000000000100 |                          0000010
+           WAIT_COLCOUNT |     0000000000000000000000001000 |                          0011100
+                 GET_LJI |     0000000000000000000000010000 |                          0000011
+                WAIT_LJI |     0000000000000000000000100000 |                          0011010
+               WAIT_DIV2 |     0000000000000000000001000000 |                          0011011
+             CHECK_LIM_T |     0000000000000000000010000000 |                          0100101
+            FIXED_CONV_T |     0000000000000000000100000000 |                          0100010
+            WAIT_FIXED_T |     0000000000000000001000000000 |                          0100011
+              FIXED_OUTT |     0000000000000000010000000000 |                          0100100
+             COMPUTE_IDX |     0000000000000000100000000000 |                          0100001
+               WAIT_TANH |     0000000000000001000000000000 |                          0000100
+            INIT_PRODUCT |     0000000000000010000000000000 |                          0000101
+            WAIT_PRODUCT |     0000000000000100000000000000 |                          0000110
+             PRODUCT_OUT |     0000000000001000000000000000 |                          0000111
+                 COMPARE |     0000000000010000000000000000 |                          0001000
+           CONVERT2FIXED |     0000000000100000000000000000 |                          0001001
+              WAIT_FIXED |     0000000001000000000000000000 |                          0001010
+            FIXED_OUTPUT |     0000000010000000000000000000 |                          0001011
+           COMPUTE_ATANH |     0000000100000000000000000000 |                          0001100
+              ATANH_WAIT |     0000001000000000000000000000 |                          0001101
+               WRITE_LIJ |     0000010000000000000000000000 |                          0010101
+              WAIT_WRITE |     0000100000000000000000000000 |                          0011001
+                  NEXT_J |     0001000000000000000000000000 |                          0010110
+                  NEXT_I |     0010000000000000000000000000 |                          0010111
+           WAIT_ROWCOUNT |     0100000000000000000000000000 |                          0011101
+                    DONE |     1000000000000000000000000000 |                          0011000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'check_node_v3'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |             00000000000000000001 |                           000000
+                 LOAD_VN |             00000000000000000010 |                           000001
+                   SET_I |             00000000000000000100 |                           000010
+           WAIT_ROWCOUNT |             00000000000000001000 |                           010001
+                 GET_LIJ |             00000000000000010000 |                           000011
+                WAIT_LIJ |             00000000000000100000 |                           010011
+              UPDATE_LIJ |             00000000000001000000 |                           000100
+                INIT_SUM |             00000000000010000000 |                           000101
+                WAIT_SUM |             00000000000100000000 |                           000110
+                 SUM_OUT |             00000000001000000000 |                           000111
+            GET_LJ_FLOAT |             00000000010000000000 |                           001000
+               INIT_SUM2 |             00000000100000000000 |                           001001
+               WAIT_SUM2 |             00000001000000000000 |                           001010
+                SUM2_OUT |             00000010000000000000 |                           001011
+               WRITE_LJI |             00000100000000000000 |                           001100
+              WAIT_WRITE |             00001000000000000000 |                           010000
+                  NEXT_I |             00010000000000000000 |                           001101
+                  NEXT_J |             00100000000000000000 |                           001110
+           WAIT_COLCOUNT |             01000000000000000000 |                           010010
+                    DONE |             10000000000000000000 |                           001111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'variable_node'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                00000000000000001 |                           000000
+                   SET_I |                00000000000000010 |                           000001
+           WAIT_ROWCOUNT |                00000000000000100 |                           001110
+                 GET_LIJ |                00000000000001000 |                           000010
+                WAIT_LIJ |                00000000000010000 |                           010000
+              UPDATE_LIJ |                00000000000100000 |                           000011
+                INIT_SUM |                00000000001000000 |                           000100
+                WAIT_SUM |                00000000010000000 |                           000101
+                 SUM_OUT |                00000000100000000 |                           000110
+            GET_LJ_FLOAT |                00000001000000000 |                           000111
+               INIT_SUM2 |                00000010000000000 |                           001000
+               WAIT_SUM2 |                00000100000000000 |                           001001
+                SUM2_OUT |                00001000000000000 |                           001010
+            WRITE_LJ_TOT |                00010000000000000 |                           001011
+                  NEXT_J |                00100000000000000 |                           001100
+           WAIT_COLCOUNT |                01000000000000000 |                           001111
+                    DONE |                10000000000000000 |                           001101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'Lj_total'
+WARNING: [Synth 8-327] inferring latch for variable 'cn_done_latch_reg' [D:/Vivado_files/Master_thesis/LDPC_SPA_v29/LDPC_SPA_v29.srcs/sources_1/new/llr_float_data_snr3.v:289]
+WARNING: [Synth 8-327] inferring latch for variable 'vn_done_latch_reg' [D:/Vivado_files/Master_thesis/LDPC_SPA_v29/LDPC_SPA_v29.srcs/sources_1/new/llr_float_data_snr3.v:294]
+WARNING: [Synth 8-327] inferring latch for variable 'tot_done_latch_reg' [D:/Vivado_files/Master_thesis/LDPC_SPA_v29/LDPC_SPA_v29.srcs/sources_1/new/llr_float_data_snr3.v:299]
+WARNING: [Synth 8-327] inferring latch for variable 'Lij_read_data_reg' [D:/Vivado_files/Master_thesis/LDPC_SPA_v29/LDPC_SPA_v29.srcs/sources_1/new/llr_float_data_snr3.v:280]
+WARNING: [Synth 8-327] inferring latch for variable 'lji_read_data_reg' [D:/Vivado_files/Master_thesis/LDPC_SPA_v29/LDPC_SPA_v29.srcs/sources_1/new/llr_float_data_snr3.v:226]
+WARNING: [Synth 8-327] inferring latch for variable 'lij_comb_wr_data_reg' [D:/Vivado_files/Master_thesis/LDPC_SPA_v29/LDPC_SPA_v29.srcs/sources_1/new/llr_float_data_snr3.v:177]
+WARNING: [Synth 8-327] inferring latch for variable 'lji_comb_wr_data_v_reg' [D:/Vivado_files/Master_thesis/LDPC_SPA_v29/LDPC_SPA_v29.srcs/sources_1/new/llr_float_data_snr3.v:284]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:28 ; elapsed = 00:01:38 . Memory (MB): peak = 4404.348 ; gain = 3481.691
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : Design change found in an area of the design that prevents previous synthesis information being used
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 5     
+	   2 Input   12 Bit       Adders := 3     
+	   2 Input   11 Bit       Adders := 2     
+	   2 Input   10 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 12    
+	   3 Input    3 Bit       Adders := 2     
+	   4 Input    3 Bit       Adders := 2     
+	   2 Input    2 Bit       Adders := 3     
+	   3 Input    2 Bit       Adders := 2     
++---Registers : 
+	               96 Bit    Registers := 1     
+	               16 Bit    Registers := 2588  
+	               12 Bit    Registers := 29    
+	               10 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 15    
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2603  
++---Muxes : 
+	   2 Input   96 Bit        Muxes := 5     
+	  28 Input   28 Bit        Muxes := 1     
+	   2 Input   28 Bit        Muxes := 16    
+	  20 Input   20 Bit        Muxes := 1     
+	   2 Input   20 Bit        Muxes := 12    
+	  17 Input   17 Bit        Muxes := 1     
+	   2 Input   17 Bit        Muxes := 10    
+	   2 Input   16 Bit        Muxes := 20    
+	  17 Input   16 Bit        Muxes := 2     
+	  20 Input   16 Bit        Muxes := 2     
+	  28 Input   16 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 130   
+	  16 Input   12 Bit        Muxes := 2     
+	  17 Input   12 Bit        Muxes := 2     
+	  20 Input   12 Bit        Muxes := 2     
+	  28 Input   12 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 2     
+	  28 Input   10 Bit        Muxes := 1     
+	  28 Input    7 Bit        Muxes := 1     
+	  17 Input    6 Bit        Muxes := 1     
+	  20 Input    6 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 3     
+	   2 Input    3 Bit        Muxes := 39    
+	  17 Input    3 Bit        Muxes := 2     
+	  20 Input    3 Bit        Muxes := 4     
+	  28 Input    3 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 18    
+	   2 Input    1 Bit        Muxes := 222   
+	  16 Input    1 Bit        Muxes := 23    
+	   7 Input    1 Bit        Muxes := 2     
+	  17 Input    1 Bit        Muxes := 13    
+	  20 Input    1 Bit        Muxes := 20    
+	  28 Input    1 Bit        Muxes := 22    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\j_reg[11] )
+INFO: [Synth 8-3886] merging instance 'state_reg[5]' (FDCE) to 'state_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\state_reg[4] )
+INFO: [Synth 8-3886] merging instance 'prev_state_reg[5]' (FDC) to 'prev_state_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\prev_state_reg[4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (out_ready_reg_LDC)
+DSP Report: Generating DSP tanhidx/index2, operation Mode is: A*(B:0x64).
+DSP Report: operator tanhidx/index2 is absorbed into DSP tanhidx/index2.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cn/\float_in_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cn/\row_i_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cn/\prev_state_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (lj_tot/\prev_state_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (vn/\prev_state_reg[5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (boot_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cn/\atanh_mem_addr_reg[11] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:19 ; elapsed = 00:02:58 . Memory (MB): peak = 4404.348 ; gain = 3481.691
+---------------------------------------------------------------------------------
+ Sort Area is SPA_top_v3__GCB2 tanhidx/index2_0 : 0 0 : 282 282 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|tanh_idx_v4 | A*(B:0x64)  | 16     | 7      | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:27 ; elapsed = 00:03:07 . Memory (MB): peak = 4404.348 ; gain = 3481.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:35 ; elapsed = 00:03:16 . Memory (MB): peak = 4404.348 ; gain = 3481.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:50 ; elapsed = 00:03:40 . Memory (MB): peak = 4404.348 ; gain = 3481.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:01 ; elapsed = 00:03:51 . Memory (MB): peak = 4404.348 ; gain = 3481.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:01 ; elapsed = 00:03:51 . Memory (MB): peak = 4404.348 ; gain = 3481.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:07 ; elapsed = 00:03:57 . Memory (MB): peak = 4404.348 ; gain = 3481.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:07 ; elapsed = 00:03:58 . Memory (MB): peak = 4404.348 ; gain = 3481.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:08 ; elapsed = 00:03:58 . Memory (MB): peak = 4404.348 ; gain = 3481.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:08 ; elapsed = 00:03:58 . Memory (MB): peak = 4404.348 ; gain = 3481.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|tanh_idx_v4 | A'*B        | 16     | 7      | -      | -      | 23     | 1    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++------+------------------+----------+
+|      |BlackBox name     |Instances |
++------+------------------+----------+
+|1     |Lji_mem_bram      |         1|
+|2     |lij_mem_bram      |         1|
+|3     |hrow_count_mem    |         3|
+|4     |hrow_pos_mem      |         3|
+|5     |hcol_count_mem    |         3|
+|6     |hcol_pos_mem      |         3|
+|7     |tanh_mem          |         1|
+|8     |atanh_mem         |         1|
+|9     |float_to_fixed    |         1|
+|10    |float2fixed_idx   |         1|
+|11    |floating_mul_half |         1|
+|12    |float_add         |         4|
++------+------------------+----------+
+
+Report Cell Usage: 
++------+------------------+------+
+|      |Cell              |Count |
++------+------------------+------+
+|1     |Lji_mem_bram      |     1|
+|2     |atanh_mem         |     1|
+|3     |float2fixed_idx   |     1|
+|4     |float_add         |     4|
+|8     |float_to_fixed    |     1|
+|9     |floating_mul_half |     1|
+|10    |hcol_count_mem    |     3|
+|13    |hcol_pos_mem      |     3|
+|16    |hrow_count_mem    |     3|
+|19    |hrow_pos_mem      |     3|
+|22    |lij_mem_bram      |     1|
+|23    |tanh_mem          |     1|
+|24    |BUFG              |     1|
+|25    |CARRY4            |    50|
+|26    |DSP48E1           |     1|
+|27    |LUT1              |     2|
+|28    |LUT2              |   162|
+|29    |LUT3              |   533|
+|30    |LUT4              |   206|
+|31    |LUT5              |  3310|
+|32    |LUT6              | 12501|
+|33    |MUXF7             |  5628|
+|34    |MUXF8             |  2804|
+|35    |FDCE              |   397|
+|36    |FDPE              |     6|
+|37    |FDRE              | 43643|
+|38    |FDSE              |    28|
+|39    |LD                |   224|
+|40    |LDP               |     3|
+|41    |IBUF              |    19|
+|42    |OBUF              |    34|
++------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:08 ; elapsed = 00:03:58 . Memory (MB): peak = 4404.348 ; gain = 3481.691
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:41 ; elapsed = 00:03:50 . Memory (MB): peak = 4404.348 ; gain = 3326.480
+Synthesis Optimization Complete : Time (s): cpu = 00:03:08 ; elapsed = 00:04:00 . Memory (MB): peak = 4404.348 ; gain = 3481.691
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.748 . Memory (MB): peak = 4404.348 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8710 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'SPA_top_v3' is not ideal for floorplanning, since the cellview 'Lj_tot_storage' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 4404.348 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 227 instances were transformed.
+  LD => LDCE: 224 instances
+  LDP => LDPE: 3 instances
+
+Synth Design complete | Checksum: f8020494
+INFO: [Common 17-83] Releasing license: Synthesis
+90 Infos, 278 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:22 ; elapsed = 00:04:29 . Memory (MB): peak = 4404.348 ; gain = 3905.848
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 4404.348 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Vivado_files/Master_thesis/LDPC_SPA_v37/LDPC_SPA_v37.runs/synth_1/SPA_top_v3.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 4404.348 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file SPA_top_v3_utilization_synth.rpt -pb SPA_top_v3_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 29 20:57:29 2025...
